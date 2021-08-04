@@ -15,7 +15,7 @@ To install this application locally yourself, download and clone the files from 
 After visiting the [portfolio](https://msteblu.github.io/Portfolio/), simply interact with the site's features. View various examples of some of my projects and visit the associated links (to deployed applications and to their repositories). Use the navbar to learn more about me and to access my contact information, including links to my GitHub, my LinkedIn, and to a PDF of my resume. 
 
 _View My Portfolio_
-![Gif of Portfolio](assets/portfolio.gif)
+![Gif of Portfolio](https://github.com/msteblu/Portfolio/blob/main/assets/images/portfolio.gif)
 
 ## License
 
