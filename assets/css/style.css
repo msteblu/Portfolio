@@ -1,0 +1,28 @@
+/* Variables */
+:root {
+    --rosepink: #FF748C;
+}
+
+/* Body */
+body {
+    background-image: url("../images/rose.png");
+    background-repeat: no-repeat;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+h1 {
+    font-family: 'Satisfy', cursive;
+    padding: 1.75rem;
+}
+
+a:hover {
+    color: var(--rosepink);
+}
+
+.photo {
+    width: 40%;
+    height: auto;
+    border: 10% inset black;
+    border-radius: 50%;
+    margin: 1.5rem;
+}

@@ -13,6 +13,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Satisfy&display=swap"
+        rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet" />
+
 </head>
 <body>
     <header>
@@ -27,10 +32,10 @@
                 <h4 class="text-white">Contact</h4>
                 <ul class="list-unstyled">
                   <li><a href="https://github.com/msteblu" class="link-contact text-white" target="_blank"
-                    rel="noopener noreferrer">My GitHub</a></li>
+                    rel="noopener noreferrer">GitHub</a></li>
                   <li><a href="https://www.linkedin.com/in/megan-steblay-65a5321b5/" class="link-contact text-white"
-                    target="_blank" rel="noopener noreferrer">My LinkedIn</a></li>
-                  <li><a href="#" class="text-white">My Resume</a></li>
+                    target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                  <li><a href="./assets/Resume_MSS.pdf" class="text-white" target="_blank" rel="noopener noreferrer">Resume</a></li>
                   <li><a href="mailto: megan@steblay.net" class="text-white">megan@steblay.net</a></li>
                   <li><a href="#" class="text-white">651.504.5238</a></li>
                 </ul>
@@ -41,7 +46,7 @@
         <div class="navbar navbar-dark bg-dark shadow-sm">
           <div class="container">
             <a href="#" class="navbar-brand d-flex align-items-center">
-              <strong>msteblu</strong>
+              <strong>@msteblu</strong>
             </a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -54,11 +59,10 @@
         <section class="py-5 text-center container">
           <div class="row py-lg-5">
             <div class="col-lg-6 col-md-8 mx-auto">
-              <h1 class="fw-light">megan steblay</h1>
-              <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+              <img src="./assets/images/Profile.jpeg" alt="Photo of Megan Steblay" class="img-fluid mx-auto photo">
+              <h1 class="fw-light">M e g a n   S t e b l a y</h1>
+              <p class="lead text-muted">Welcome to my portfolio.</p>
               <p>
-                <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                <a href="#" class="btn btn-secondary my-2">Secondary action</a>
               </p>
             </div>
           </div>
@@ -71,14 +75,16 @@
               <!-- Tech Blog -->
               <div class="col">
                 <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-      
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Tech Blog</text></svg> -->
+                  <img src="./assets/images/Dashboard.gif" class="bd-placeholder-img card-img-top" width="100%" height="225" />
+
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4>Tech Blog</h4>
+                    <p class="card-text">This application provides a blog site where developers can publish blog posts and comment on others' blog posts. It provides users a space to discuss and learn with each other.</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://fast-meadow-10211.herokuapp.com/';" >App</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://github.com/msteblu/TechBlog';" >Repo</button>
                       </div>
                       <small class="text-muted"></small>
                     </div>
@@ -88,16 +94,18 @@
               <!-- Trivialympics -->
               <div class="col">
                 <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-      
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Trivialympics</text></svg> -->
+                  <img src="./assets/images/Trivialympics.gif" class="bd-placeholder-img card-img-top" width="100%" height="225" />
+
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4>Trivialympics</h4>
+                    <p class="card-text">Trivia Olympics is an interactive full-stack application that allows you to log in to play a fun trivia game. Users compete to solve trivia questions and move across the board to win the game. </p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://young-harbor-83683.herokuapp.com/';" >App</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://github.com/msteblu/CodingLand';" >Repo</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small class="text-muted"></small>
                     </div>
                   </div>
                 </div>
@@ -105,16 +113,18 @@
               <!-- Blitz and Chaos -->
               <div class="col">
                 <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-      
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Blitz and Chaos</text></svg> -->
+                  <img src="./assets/images/Mountain.png" class="bd-placeholder-img card-img-top" width="100%" height="225" />
+
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4>Blitz and Chaos</h4>
+                    <p class="card-text">Blitz and Chaos is a text-based, interactive story (run by JavaScript) providing you, the user, with a chance to play through a life as a hero. The choices you make along the way change the experience and outcome of your story.</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://justinean.github.io/BlitzandChaos/';" >App</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://github.com/msteblu/BlitzandChaos';" >Repo</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small class="text-muted"></small>
                     </div>
                   </div>
                 </div>
@@ -123,16 +133,18 @@
               <!-- Employee Tracker -->
               <div class="col">
                 <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-      
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Employee Tracker</text></svg> -->
+                  <img src="./assets/images/Employee_Tracker.gif" class="bd-placeholder-img card-img-top" width="100%" height="225" />
+
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4>Employee Tracker</h4>
+                    <p class="card-text">This is a command-line application that provides a solution for easily managing a company's employees. It allows employers to view and manage different aspects of the departments, roles, and employees in their company.</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.awesomescreenshot.com/video/4416767?key=1689c0490c9d56ff02dba9aad1fd25e1';" >Vid</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://github.com/msteblu/EmployeeTracker';" >Repo</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small class="text-muted"></small>
                     </div>
                   </div>
                 </div>
@@ -140,16 +152,18 @@
               <!-- E-Commerce Backend -->
               <div class="col">
                 <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-      
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">E-Commerce Backend</text></svg> -->
+                  <img src="./assets/images/ECommerce.gif" class="bd-placeholder-img card-img-top" width="100%" height="225" />
+
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4>E-Commerce Backend</h4>
+                    <p class="card-text">This application provides the back end so that an e-commerce website and company can easily manage their products and have the technology to compete with other companies. It uses an Express.js API and the Sequelize package to interact with a MySQL database.</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://www.awesomescreenshot.com/video/4499834?key=e6b97f1ebf7ef168da3c5341bb964790';" >Vid</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://github.com/msteblu/E-Commerce_BackEnd';" >Repo</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small class="text-muted"></small>
                     </div>
                   </div>
                 </div>
@@ -157,16 +171,18 @@
               <!-- Weather Dashboard -->
               <div class="col">
                 <div class="card shadow-sm">
-                  <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-      
+                  <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Weather Dashboard</text></svg> -->
+                  <img src="./assets/images/weather.png" class="bd-placeholder-img card-img-top" width="100%" height="225" />
+
                   <div class="card-body">
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h4>Weather Dashboard</h4>
+                    <p class="card-text">This is a simple weather application. It was built in order to give users a way to check the weather and forecast for a specific city of their choice. It utilizes the OpenWeather API to provide up-to-date data and predictions.</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://msteblu.github.io/WeatherDashboard/';" >App</button>
+                        <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.location.href='https://github.com/msteblu/WeatherDashboard';" >Repo</button>
                       </div>
-                      <small class="text-muted">9 mins</small>
+                      <small class="text-muted"></small>
                     </div>
                   </div>
                 </div>
